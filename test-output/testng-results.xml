@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53497" started-at="2022-04-11T17:26:07Z" finished-at="2022-04-11T17:27:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53497" started-at="2022-04-11T17:26:07Z" finished-at="2022-04-11T17:27:01Z">
+      <class name="com.tests.com.AspireE2Etest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tests.com.AspireE2Etest@59d016c9]" name="setup" is-config="true" duration-ms="10490" started-at="2022-04-11T17:26:08Z" finished-at="2022-04-11T17:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="E2Etest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.com.AspireE2Etest@59d016c9]" name="E2Etest" duration-ms="41866" started-at="2022-04-11T17:26:19Z" data-provider="data" finished-at="2022-04-11T17:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@aspireapp.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@sp1r3app]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Storable Product]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2Etest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tests.com.AspireE2Etest@59d016c9]" name="teardown" is-config="true" duration-ms="1" started-at="2022-04-11T17:27:01Z" finished-at="2022-04-11T17:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.com.AspireE2Etest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
